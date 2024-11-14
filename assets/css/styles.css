@@ -1,0 +1,30 @@
+@import url("./reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    background-color: rgb(146, 175, 175);
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    border: 2px solid rgb(0, 182, 182);
+    padding: 2rem;
+    transition: transform 700ms ease-in-out;
+}
+
+li:hover{
+    transform: rotateX(360deg);
+}
+a{
+    color: white;
+    font-size: 1.5rem;
+    transition: color 350ms ease-in-out;
+}
+
+a:hover{
+    color: rgb(0, 61, 131);
+}
+
